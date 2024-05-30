@@ -25,14 +25,16 @@ test.beforeEach('Before Each', ({ page }) => {
 });
 
 test('placing the order test', async () => {
+  let cartItems = null;
+
   await homePage.launchHomePage(process.env.URL);
   await homePage.login();
-  await productsPage.addItemsToCart();
+  cartItems = await productsPage.addItemsToCart(2);
   await productsPage.openCart();
-  await cartItemsPage.validateCart();
+  await cartItemsPage.validateCart(cartItems);
   await cartItemsPage.openCheckout();
   await checkoutPage.submitTheForm();
-  await checkoutOverviewPage.validateTheOverviewPage();
+  await checkoutOverviewPage.validateTheOverviewPage(cartItems);
   await checkoutOverviewPage.submitUserForm();
   await checkoutCompletePage.validateThePage();
   await checkoutCompletePage.logout();
