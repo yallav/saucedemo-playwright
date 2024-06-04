@@ -28,8 +28,8 @@ npm install
 ```
 3. Install playwright executables, otherwise playwright will fail to find browser executables
 ```
-npx playwright install```
-
+npx playwright install
+```
 
 ### Test Case
 Following test scenario is targeted to demonstrate automation testing skill in Playwright with JavaScript
