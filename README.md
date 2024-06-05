@@ -34,7 +34,7 @@ npx playwright install
 
 ### Test Case
 Following test scenario is targeted to demonstrate automation testing skill in Playwright with JavaScript
-
+```
 Feature:
 This feature gives flow of order checkout scenarios
 
@@ -55,6 +55,7 @@ And user fills the form and submit the form
 And user clicks on Finish button
 
 Then user should see "Thank you for your order!"
+```
 
 ### Script Recording
 1. Test flow can be recorded by executing the following command
