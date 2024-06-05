@@ -3,7 +3,7 @@ This repo demonstrates POM design pattern in Playwright for "saucedemo" applicat
 
 ### Setup (from scratch)
 1. Create an empty repo in GitHub 
-2. Clone the porject repo by executing the following command
+2. Clone the the empty repo by executing the following command
 ```
 git clone https://github.com/yallav/saucedemo-playwright.git
 ```
