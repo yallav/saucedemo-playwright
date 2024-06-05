@@ -2,17 +2,18 @@
 This repo demonstrates POM design pattern in Playwright for "saucedemo" application
 
 ### Setup (from scratch)
-1. Clone the porject repo by executing the following command
+1. Create an empty repo in GitHub 
+2. Clone the porject repo by executing the following command
 ```
 git clone https://github.com/yallav/saucedemo-playwright.git
 ```
-2. Initiate the Playwright with the following command
+3. Initiate the Playwright with the following command
 ```
 npm init playwright@latest
 ```
 We can see the following message that indicates successful initialization of Playwright tool
 ![alt text](/documentation/image-1.png)
-3. Install dotenv plugin by executing the following command from the project root directory
+4. Install dotenv plugin by executing the following command from the project root directory
 ```
 npm install dotenv -D
 ```
